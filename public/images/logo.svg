@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" fill="none">
+  <!-- Shield avec vague Atlantique -->
+  <g transform="translate(0,5)">
+    <!-- Bouclier principal -->
+    <path d="M25 4 L4 12 L4 30 C4 42 14 50 25 54 C36 50 46 42 46 30 L46 12 Z"
+          fill="#0F172A" stroke="#10B981" stroke-width="1.5"/>
+    <!-- Vague océanique stylisée (Atlantique/Agadir) -->
+    <path d="M10 32 Q14 27 18 32 Q22 37 26 32 Q30 27 34 32 Q38 37 40 32"
+          stroke="#10B981" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <!-- Montagne Atlas minimaliste -->
+    <path d="M13 28 L20 16 L27 28 Z" fill="none" stroke="#C8A96B" stroke-width="1.2" stroke-linejoin="round"/>
+    <!-- Email barré (anti-phishing) -->
+    <rect x="14" y="20" width="22" height="14" rx="2" fill="none" stroke="white" stroke-width="1.2" opacity="0.6"/>
+    <line x1="14" y1="34" x2="20" y2="27" stroke="#f43f5e" stroke-width="1.5"/>
+    <line x1="36" y1="34" x2="30" y2="27" stroke="#f43f5e" stroke-width="1.5"/>
+    <!-- Croix de neutralisation -->
+    <line x1="22" y1="22" x2="28" y2="28" stroke="#f43f5e" stroke-width="2" stroke-linecap="round"/>
+    <line x1="28" y1="22" x2="22" y2="28" stroke="#f43f5e" stroke-width="2" stroke-linecap="round"/>
+    <!-- Point brillant -->
+    <circle cx="40" cy="10" r="3" fill="#10B981" opacity="0.8"/>
+    <circle cx="40" cy="10" r="5" fill="none" stroke="#10B981" stroke-width="0.5" opacity="0.4"/>
+  </g>
+  <!-- Texte -->
+  <text x="55" y="28" font-family="'Space Grotesk',sans-serif" font-size="15" font-weight="800" fill="#E6EDF3" letter-spacing="-0.3">Souss</text>
+  <text x="55" y="45" font-family="'JetBrains Mono',monospace" font-size="9" font-weight="500" fill="#10B981" letter-spacing="2">PHISH GUARD</text>
+  <!-- Ligne décorative -->
+  <line x1="55" y1="50" x2="195" y2="50" stroke="#10B981" stroke-width="0.5" opacity="0.3"/>
+  <text x="55" y="58" font-family="'JetBrains Mono',monospace" font-size="6" fill="#484f58" letter-spacing="2">SECURITY OPERATIONS CENTER</text>
+</svg>

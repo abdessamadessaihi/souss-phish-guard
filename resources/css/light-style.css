@@ -1,0 +1,56 @@
+/* ═══════════════════════════════════════
+   SOUSS PHISH GUARD — LIGHT THEME
+   ═══════════════════════════════════════ */
+:root {
+    --emerald: #059669;
+    --emerald-light: #10b981;
+    --emerald-dim: rgba(5, 150, 105, 0.08);
+    --emerald-glow: rgba(5, 150, 105, 0.06);
+    --amber: #d97706;
+    --amber-dim: rgba(217, 119, 6, 0.08);
+    --rose: #e11d48;
+    --rose-dim: rgba(225, 29, 72, 0.08);
+    --sky: #0284c7;
+    --sky-dim: rgba(2, 132, 199, 0.08);
+    --violet: #7c3aed;
+    --violet-dim: rgba(124, 58, 237, 0.08);
+
+    --bg-base: #f8fafc;
+    --bg-surface: #ffffff;
+    --bg-elevated: #f1f5f9;
+    --bg-input: #f8fafc;
+    --bg-overlay: rgba(248, 250, 252, 0.97);
+
+    --border-subtle: rgba(226, 232, 240, 1);
+    --border-default: rgba(203, 213, 225, 1);
+    --border-muted: rgba(5, 150, 105, 0.2);
+    --border-strong: rgba(5, 150, 105, 0.4);
+
+    --text-primary: #0f172a;
+    --text-secondary: #475569;
+    --text-muted: #94a3b8;
+}
+
+body {
+    background: var(--bg-base);
+}
+
+.cyber-bg {
+    display: none;
+}
+
+.sidebar {
+    box-shadow: 2px 0 12px rgba(0, 0, 0, 0.06);
+}
+
+.topbar {
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.06);
+}
+
+.cyber-card {
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+}
+
+.stat-card {
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+}
